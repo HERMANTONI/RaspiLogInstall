@@ -1,0 +1,8 @@
+https://pinout.xyz/pinout/spi
+
+/dev/spidev0.0 is CE0 (pin#24/GPIO8)
+/dev/spidev0.1 is CE1 (pin#26/GPIO7)
+
+Chip enable (CE) is sometimes called chip select (CS).
+
+Both devices share MISO (pin#21/GPIO9), MOSI (pin#19/GPIO10) and SCLK (pin#23/GPIO11).
