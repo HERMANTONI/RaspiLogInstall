@@ -1,0 +1,288 @@
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Using default 2000kHz clock. Use 'spispeed' parameter to override.
+Found Generic flash chip "unknown SPI chip (RDID)" (0 kB, SPI) on linux_spi.
+===
+This flash part has status NOT WORKING for operations: PROBE READ ERASE WRITE
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+Read is not working on this chip. Aborting.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Generic flash chip "unknown SPI chip (RDID)" (0 kB, SPI) on linux_spi.
+===
+This flash part has status NOT WORKING for operations: PROBE READ ERASE WRITE
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+No operations were specified.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Generic flash chip "unknown SPI chip (RDID)" (0 kB, SPI) on linux_spi.
+===
+This flash part has status NOT WORKING for operations: PROBE READ ERASE WRITE
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+No operations were specified.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Generic flash chip "unknown SPI chip (RDID)" (0 kB, SPI) on linux_spi.
+===
+This flash part has status NOT WORKING for operations: PROBE READ ERASE WRITE
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+No operations were specified.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Using default 2000kHz clock. Use 'spispeed' parameter to override.
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin -c W25Q65FV
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q65FV' specified.
+
+Run flashrom -L to view the hardware supported in this flashrom version.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin -c W25Q64FV
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin -c "W25Q64FV"
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Using default 2000kHz clock. Use 'spispeed' parameter to override.
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0 -r backupLG32LF520A.bin -c W25Q64FV
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -r backupLG32LF520A.bin -c W25Q64FV
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -r backupLG32LF520A.bin -c W25Q64FV
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c W25Q64FV-r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Extra parameter found.
+Please run "flashrom --help" for usage info.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c "W25Q64FV" -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c "W25Q64FV" -r backupLG32LF520A.binoni:~ $ flashromflashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64FV' -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64FV'\
+> 
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64FV'
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Found Winbond flash chip "W25Q64JV-.Q" (8192 kB, SPI) on linux_spi.
+Multiple flash chip definitions match the detected chip(s): "W25Q64BV/W25Q64CV/W25Q64FV", "W25Q64JV-.Q"
+Please specify which chip definition to use with the -c <chipname> option.
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64FV-.Q'
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV-.Q' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64FV'
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Error: Unknown chip 'W25Q64FV' specified.
+Run flashrom -L to view the hardware supported in this flashrom version.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64BV/W25Q64CV/W25Q64FV'
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+No operations were specified.
+
+pi@hrmtoni:~ $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64BV/W25Q64CV/W25Q64FV' -r backupLG32LF520A.bin
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Reading flash... done.
+
+pi@hrmtoni:~ $ cd Share2Remote
+
+pi@hrmtoni:~/Share2Remote $ ls
+ AU.zip   backupdatabase.rar   dbweb_localhost.sql   Send2Windows  'TOSHIBA 32PB2E.bin'
+ a.zip    backupdatabase.zip  'LG 32LF520A.bin'      Test.txt
+ 
+pi@hrmtoni:~/Share2Remote $ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=512 -c 'W25Q64BV/W25Q64CV/W25Q64FV' -w 'LG 32LF520A.bin'
+flashrom v1.2-1149-g0bc84bfe on Linux 5.4.51-v7+ (armv7l)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found Winbond flash chip "W25Q64BV/W25Q64CV/W25Q64FV" (8192 kB, SPI) on linux_spi.
+Reading old flash chip contents... done.
+Erasing and writing flash chip... Erase/write done.
+Verifying flash... VERIFIED.
+pi@hrmtoni:~/Share2Remote $ 
