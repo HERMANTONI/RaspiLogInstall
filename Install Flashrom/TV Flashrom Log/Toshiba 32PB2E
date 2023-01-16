@@ -1,0 +1,32 @@
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ scp
+usage: scp [-346ABCOpqRrsTv] [-c cipher] [-D sftp_server_path] [-F ssh_config]
+           [-i identity_file] [-J destination] [-l limit]
+           [-o ssh_option] [-P port] [-S program] source ... target
+           
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ scp "TOSHIBA 32PB23" pi@raspberrypi.local:Share2Remote/
+ssh: Could not resolve hostname raspberrypi.local: Name or service not known
+lost connection
+
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ scp "TOSHIBA 32PB23" pi@hrmtoni.local:Share2Remote/
+The authenticity of host 'hrmtoni.local (10.42.0.183)' can't be established.
+ED25519 key fingerprint is SHA256:fgNWsmIf+I6j++rMDoro30UXevSMoJGc87ufsKRXXhI.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:3: [hashed name]
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'hrmtoni.local' (ED25519) to the list of known hosts.
+pi@hrmtoni.local's password: 
+TOSHIBA 32PB23: No such file or directory
+
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ ls
+'TOSHIBA 32PB2E.bin'
+
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ scp "TOSHIBA 32PB23.bin" pi@hrmtoni.local:Share2Remote/
+pi@hrmtoni.local's password: 
+TOSHIBA 32PB23.bin: No such file or directory
+
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ scp "TOSHIBA 32PB2E.bin" pi@hrmtoni.local:Share2Remote/
+pi@hrmtoni.local's password: 
+TOSHIBA 32PB2E.bin                            100% 2048KB  10.5MB/s   00:00    
+
+x00@x00:/media/x00/HERMAN/CUAN_Sampingan/Firmware TV/Toshiba$ 
+
