@@ -1,0 +1,6 @@
+make sure have a network connection
+login as root
+1. pacman -Sy
+2. pacman -S lm_sensors
+3. wait and confirm
+4. finish
