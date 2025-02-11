@@ -1,0 +1,9 @@
+make sure you have internet connection
+login as root, while in first update
+1. pacman -Sy
+2. wait for update and finish
+
+login as root, while in first upgrade
+1. pacman -Syu
+2. wait for update and confirm for upgrade
+3. finish
