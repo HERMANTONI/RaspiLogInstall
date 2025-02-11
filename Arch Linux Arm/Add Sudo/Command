@@ -1,0 +1,9 @@
+login as root
+1. pacman -S sudo
+2. wait and confirm for install
+3. must a setup for sudoer
+4. nano /etc/sudoers
+5. look at user privilege, change from root ALL=.... to username ALL=.....
+6. ctfl+o to save / writeout
+7. ctrl+x to exit
+8. finish
