@@ -1,0 +1,4 @@
+make sure before remove your package
+1. sudo pacman -Rs package
+2. wait and confirm
+3. finish
