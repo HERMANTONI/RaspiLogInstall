@@ -1,0 +1,9 @@
+change username login as root
+1. usermod -l newUser oldUser
+2. finish
+
+change password login as user
+1. passwd
+2. type current password
+3. re-type current password
+4. finish
