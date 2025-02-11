@@ -1,0 +1,5 @@
+makesure have a netwok connection
+1. sudo pacman -Sy
+2. sudo pacman -S htop
+3. wait and confirm
+4. finish
